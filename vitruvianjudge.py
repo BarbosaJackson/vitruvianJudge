@@ -33,7 +33,6 @@ def judge(qnt_cases, points_question):
 			print('incorreto')
 	print('----------------------------------------------------')
 	print('foram acertados ' + str(hits) + ' casos de teste de um total de ' + str(qnt_cases))
-	print(points_question * float(qnt_cases/hits))
 
 def run(file_name, qnt_cases):
 	compile(file_name)
